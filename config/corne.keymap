@@ -58,10 +58,10 @@
 
         media_layer {
             bindings = <
-&kp TAB    &trans  &trans  &trans  &trans                &trans                  &trans             &trans           &trans  &trans  &trans  &trans
-&kp RCTRL  &trans  &trans  &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp K_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans
-&kp LSHFT  &trans  &trans  &trans  &trans                &trans                  &trans             &trans           &trans  &trans  &trans  &trans
-                           &trans  &trans                &trans                  &trans             &trans           &trans
+&kp TAB    &trans  &trans  &trans                &trans                &trans    &trans  &trans             &trans           &trans  &trans  &trans
+&kp RCTRL  &trans  &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans    &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans
+&kp LSHFT  &trans  &trans  &trans                &trans                &trans    &trans  &trans             &trans           &trans  &trans  &trans
+                           &trans                &trans                &trans    &trans  &trans             &trans
             >;
         };
     };
